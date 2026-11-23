@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ИП Уколов С. В. — Бобруйск (демо)</title><meta name="description" content="ул. Карла Либкнехта, 6. Грузовые и коммерческие авто, пневмосистемы, диагностика, эндоскопия двигателя.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--surface:#f5f5f7;--fg:#1d1d1f;--mut:#6e6e73;--line:rgba(0,0,0,.12);--nav:rgba(255,255,255,.72);--accent:#94A3B8;--onacc:#000000;--link:color-mix(in srgb,var(--accent) 68%,#000);--sh:rgba(0,0,0,.25);color-scheme:light dark}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#000;--surface:#111113;--fg:#f5f5f7;--mut:#a1a1a6;--line:rgba(255,255,255,.16);--nav:rgba(0,0,0,.6);--link:var(--accent);--sh:rgba(0,0,0,.7)}}
+:root[data-theme=dark]{--bg:#000;--surface:#111113;--fg:#f5f5f7;--mut:#a1a1a6;--line:rgba(255,255,255,.16);--nav:rgba(0,0,0,.6);--link:var(--accent);--sh:rgba(0,0,0,.7)}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{font-family:Inter,system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--fg);-webkit-font-smoothing:antialiased;line-height:1.5;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+a{color:inherit;text-decoration:none}.w{max-width:1080px;margin:0 auto;padding:0 24px}
+.demo{font-size:11px;letter-spacing:.04em;text-align:center;padding:7px 12px;background:var(--surface);color:var(--mut)}
+nav.n{position:sticky;top:0;z-index:10;-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);background:var(--nav);border-bottom:1px solid transparent;transition:border-color .3s}nav.n.s{border-color:var(--line)}
+nav .w{height:52px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{font-weight:600;font-size:15px;display:flex;align-items:center;gap:8px;letter-spacing:-.01em}.logo img{width:24px;height:24px;border-radius:6px;background:#fff}
+.links{display:flex;gap:28px;font-size:13px;color:var(--mut)}.links a{transition:color .2s}.links a:hover{color:var(--fg)}@media(max-width:700px){.links{display:none}}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:12px 24px;border-radius:980px;font-size:15px;font-weight:500;background:var(--accent);color:var(--onacc);transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s}
+.pill:hover{transform:scale(1.04);box-shadow:0 12px 32px -10px var(--accent)}.pill:active{transform:scale(.97)}.pill.sm{padding:7px 16px;font-size:13px}
+.lnk{color:var(--link);font-size:17px}.lnk::after{content:" \203A";display:inline-block;transition:transform .25s}.lnk:hover::after{transform:translateX(4px)}
+.hero{padding:120px 0 80px;text-align:center;background:radial-gradient(60% 50% at 50% 0,color-mix(in srgb,var(--accent) 13%,transparent),transparent 70%)}
+.eyebrow{font-size:14px;color:var(--mut);margin-bottom:18px}
+h1{font-size:clamp(40px,8vw,88px);line-height:1.04;letter-spacing:-.035em;font-weight:600}h1 em{font-style:normal;color:var(--link)}
+.sub{font-size:clamp(18px,2.2vw,24px);color:var(--mut);max-width:640px;margin:22px auto 34px;font-weight:300}
+.cta{display:flex;gap:28px;justify-content:center;align-items:center;flex-wrap:wrap}
+.rating{margin-top:52px;font-size:14px;color:var(--mut)}.rating b{color:var(--fg);font-weight:600}
+section{padding:96px 0}h2{font-size:clamp(30px,4.6vw,52px);letter-spacing:-.03em;font-weight:600;line-height:1.08;margin-bottom:14px}.lead{color:var(--mut);font-size:19px;max-width:560px;font-weight:300}
+.ph{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-top:32px}.ph figure{margin:0;border-radius:28px;overflow:hidden;aspect-ratio:4/3;background:var(--surface)}
+.ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}.ph figure:hover img{transform:scale(1.05)}.cap{font-size:12px;color:var(--mut);margin-top:14px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);text-align:center;border-block:1px solid var(--line)}.stats div{padding:52px 12px;border-left:1px solid var(--line)}.stats div:first-child{border:0}
+.stats b{display:block;font-size:clamp(40px,7vw,80px);font-weight:600;letter-spacing:-.04em;line-height:1}.stats span{font-size:13px;color:var(--mut)}
+.svcs{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));margin-top:48px}
+.svc{background:var(--surface);border-radius:24px;padding:28px;transition:transform .45s cubic-bezier(.2,.8,.2,1),box-shadow .45s}.svc:hover{transform:translateY(-6px);box-shadow:0 24px 48px -24px var(--sh)}
+.svc small{font-size:12px;color:var(--mut);letter-spacing:.04em}.svc h3{font-size:21px;font-weight:600;letter-spacing:-.02em;margin:10px 0 8px;line-height:1.25}.svc p{color:var(--mut);font-size:15px}
+.pts{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:48px;border-top:1px solid var(--line)}.pt{padding:32px 28px 32px 0}.pt i{font-style:normal;color:var(--link);font-size:13px}.pt h3{font-size:22px;font-weight:600;margin:10px 0 8px;letter-spacing:-.02em}.pt p{color:var(--mut);font-size:15px}
+.rvw{overflow:hidden;margin-top:40px;touch-action:pan-y}.track{display:flex;transition:transform .7s cubic-bezier(.2,.8,.2,1)}.slide{min-width:100%}
+.slide blockquote{font-size:clamp(22px,3.4vw,36px);line-height:1.3;letter-spacing:-.02em;font-weight:500;max-width:880px}.slide cite{display:block;margin-top:22px;font-style:normal;color:var(--mut);font-size:14px}
+.ctl{display:flex;gap:10px;align-items:center;margin-top:34px}.dot{width:8px;height:8px;border-radius:50%;background:var(--line);border:0;cursor:pointer;transition:.3s;padding:0}.dot.on{width:26px;border-radius:9px;background:var(--fg)}
+.arr{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:none;color:var(--fg);cursor:pointer;transition:.25s;font-size:16px}.arr:hover{background:var(--surface)}
+.ct{display:grid;gap:48px;grid-template-columns:1.3fr 1fr}@media(max-width:760px){.ct{grid-template-columns:1fr}}
+.pn{font-size:clamp(34px,6vw,64px);font-weight:600;letter-spacing:-.03em;display:inline-block;margin:10px 0 24px;transition:color .3s}.pn:hover{color:var(--link)}
+.row{padding:14px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;font-size:15px}.row span{color:var(--mut)}.row a{color:var(--link)}
+footer{padding:36px 0 56px;color:var(--mut);font-size:12px;border-top:1px solid var(--line);line-height:1.7}
+.r{opacity:0}.r.on{opacity:1;animation:up .9s cubic-bezier(.2,.8,.2,1) backwards}@keyframes up{from{opacity:0;transform:translateY(24px)}}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.r{opacity:1}}
+/* Polestar-like flavour */
+.pole .hero{text-align:left;padding:140px 0 90px;border-bottom:1px solid var(--line)}.pole h1{font-weight:300;letter-spacing:-.02em;font-size:clamp(40px,7vw,80px)}
+.pole .eyebrow,.pole .cap{text-transform:uppercase;letter-spacing:.2em;font-size:11px}.pole .sub{margin-left:0}.pole .cta{justify-content:flex-start}
+.pole .pill{border-radius:2px;text-transform:uppercase;letter-spacing:.14em;font-size:12px;padding:16px 30px}.pole .pill.sm{padding:9px 18px;font-size:11px}
+.pole h2{font-weight:300;letter-spacing:-.01em}.pole .ph figure{border-radius:2px}.pole .stats b{font-weight:300}.pole .slide blockquote{font-weight:300}
+.pole .svcs{display:block;border-top:1px solid var(--line)}.pole .svc{display:grid;grid-template-columns:150px 1fr 1.3fr;gap:20px;align-items:baseline;background:none;border-radius:0;border-bottom:1px solid var(--line);padding:26px 4px;box-shadow:none;transition:padding .45s cubic-bezier(.2,.8,.2,1)}
+.pole .svc:hover{transform:none;padding-left:18px}.pole .svc h3{margin:0;font-weight:400}.pole .svc small{order:-1;text-transform:uppercase;letter-spacing:.14em;font-size:11px}
+@media(max-width:760px){.pole .svc{grid-template-columns:1fr;gap:6px}}
+</style></head><body class="pole">
+<div class="demo">Демо-версия · прототип сайта будет удалён по первой просьбе владельца</div>
+<nav class="n"><div class="w"><a class="logo" href="#top"><img src="https://avatars.mds.yandex.net/get-altay/3915926/2a00000175d9e3a65c3ad2cd49fab0dcdcd7/S" alt="" referrerpolicy="no-referrer" onerror="this.remove()">ИП Уколов С. В.</a><div class="links"><a href="#services">Услуги</a><a href="#photos">Фото</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a></div><a class="pill sm" href="tel:+375296438100">Позвонить</a></div></nav>
+<header class="hero" id="top"><div class="w"><p class="eyebrow">Автосервис, автотехцентр · Бобруйск</p><h1>Грузовой сервис и чип-тюнинг в <em>Бобруйске</em></h1><p class="sub">ул. Карла Либкнехта, 6. Грузовые и коммерческие авто, пневмосистемы, диагностика, эндоскопия двигателя.</p>
+<div class="cta"><a class="pill" href="tel:+375296438100">Позвонить</a><a class="lnk" href="https://yandex.by/maps/-/CXc6qILB" target="_blank" rel="noopener">Маршрут на карте</a></div>
+<p class="rating"><b>★ 2,4</b> · 21 оценка · 6 отзывов на Яндекс Картах</p></div></header>
+<section id="photos" style="padding-bottom:40px"><div class="w"><p class="eyebrow" style="margin:0">Фото из карточки на Яндекс Картах · всего 2</p><div class="ph"><figure><img src="https://avatars.mds.yandex.net/get-altay/4562252/2a000001825de854863991afba4d8e224720/XXL_height" data-s="https://avatars.mds.yandex.net/get-altay/4562252/2a000001825de854863991afba4d8e224720/L_height" alt="ИП Уколов С. В. — фото 1" loading="lazy" referrerpolicy="no-referrer" onerror="pf(this)"></figure><figure><img src="https://avatars.mds.yandex.net/get-altay/13897576/2a00000190b18ed20d225b06fc4cd2b3c574/XXL_height" data-s="https://avatars.mds.yandex.net/get-altay/13897576/2a00000190b18ed20d225b06fc4cd2b3c574/L_height" alt="ИП Уколов С. В. — фото 2" loading="lazy" referrerpolicy="no-referrer" onerror="pf(this)"></figure></div><p class="cap">Демо-версия · права на фото принадлежат владельцам.</p></div></section>
+<div class="w"><div class="stats"><div><b>2,4</b><span>рейтинг на Яндекс Картах</span></div><div><b><span class="cn" data-n="21" style="font-size:inherit;color:inherit">0</span></b><span>оценка</span></div><div><b><span class="cn" data-n="6" style="font-size:inherit;color:inherit">0</span></b><span>отзывов в карточке</span></div></div></div>
+<section id="services"><div class="w"><h2 class="r">9 направлений работ</h2><p class="lead r">Из карточки организации на Яндекс Картах. Стоимость и сроки уточняйте по телефону.</p><div class="svcs"><article class="svc"><small>01 · Сервис</small><h3>Грузовой сервис</h3><p>Указан среди особенностей организации.</p></article><article class="svc"><small>02 · Сервис</small><h3>Ремонт прицепов и пневмосистем</h3><p>Указаны среди особенностей и видов работ.</p></article><article class="svc"><small>03 · Сервис</small><h3>Чип-тюнинг</h3><p>Указан среди особенностей организации.</p></article><article class="svc"><small>04 · Двигатель</small><h3>Ремонт двигателя и топливной системы</h3><p>Указан среди видов работ.</p></article><article class="svc"><small>05 · Диагностика</small><h3>Компьютерная диагностика</h3><p>Указана среди видов работ.</p></article><article class="svc"><small>06 · Тормоза</small><h3>Ремонт тормозной системы</h3><p>Указан среди видов работ.</p></article><article class="svc"><small>07 · Электрика</small><h3>Ремонт автоэлектрики и электроники</h3><p>Указан среди видов работ.</p></article><article class="svc"><small>08 · Сервис</small><h3>Чистка форсунок</h3><p>Указана среди видов работ.</p></article><article class="svc"><small>09 · Двигатель</small><h3>Эндоскопия двигателя</h3><p>Указана среди видов работ.</p></article></div></div></section>
+<section style="padding-top:0"><div class="w"><h2 class="r">Что отмечают клиенты</h2><div class="pts"><div class="pt"><i>01</i><h3>Грузовой сервис</h3><p>Указан среди особенностей организации.</p></div><div class="pt"><i>02</i><h3>Прицепы и пневмосистемы</h3><p>Ремонт указан среди видов работ.</p></div><div class="pt"><i>03</i><h3>Оплата картой</h3><p>Указано в карточке организации.</p></div></div></div></section>
+<section id="reviews" style="background:var(--surface)"><div class="w"><h2 class="r">Отзывы</h2><div class="rvw"><div class="track"><div class="slide"><blockquote>«Можно обращаться.»</blockquote><cite>Вячеслав Д. · отзыв на Яндекс Картах</cite></div></div></div></div></section>
+<section id="contacts"><div class="w ct"><div><p class="eyebrow">Телефон</p><a class="pn" href="tel:+375296438100">+375 29 643-81-00</a><div class="cta" style="justify-content:flex-start"><a class="pill" href="tel:+375296438100">Позвонить</a><a class="lnk" href="https://yandex.by/maps/-/CXc6qILB" target="_blank" rel="noopener">Открыть на карте</a></div></div>
+<div><div class="row"><span>Адрес</span><b style="font-weight:500;text-align:right">Бобруйск, ул. Карла Либкнехта, 6</b></div><div class="row"><span>Режим работы</span><b style="font-weight:500">уточняйте по телефону</b></div></div></div></section>
+<footer><div class="w">© ИП Уколов С. В.. Демо-версия: не официальный сайт организации, будет удалён по первой просьбе владельца. Данные и фото из публичной карточки на Яндекс Картах (23.11.2026), права принадлежат владельцам.</div></footer>
+<script>var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add("on");io.unobserve(x.target)}})},{threshold:.12});
+document.querySelectorAll(".svcs,.pts,.stats,.ph").forEach(function(g){[].forEach.call(g.children,function(c,i){c.classList.add("r");c.style.animationDelay=(i*80)+"ms"})});
+document.querySelectorAll(".r").forEach(function(el){io.observe(el)});
+var nv=document.querySelector("nav.n");function sc(){nv.classList.toggle("s",scrollY>8)}addEventListener("scroll",sc,{passive:true});sc();
+var io2=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){io2.unobserve(x.target);var el=x.target,n=+el.dataset.n,t=performance.now();(function f(c){var p=Math.min(1,(c-t)/1500);el.textContent=Math.round(n*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(f)})(t)}})});
+document.querySelectorAll(".cn").forEach(function(el){io2.observe(el)});
+function pf(img){if(!img.dataset.f){img.dataset.f=1;img.src=img.dataset.s}else{var f=img.closest("figure");if(f)f.remove();if(!document.querySelector(".ph figure")){var s=document.getElementById("photos");if(s)s.remove()}}}
+var tr=document.querySelector(".track");
+if(tr){var n=tr.children.length,i=0,ds=[].slice.call(document.querySelectorAll(".dot")),tm,x0=null;
+function go(k){i=(k+n)%n;tr.style.transform="translateX(-"+i*100+"%)";ds.forEach(function(d,j){d.classList.toggle("on",j===i)})}
+ds.forEach(function(d,j){d.onclick=function(){go(j)}});var pv=document.getElementById("prev"),nx=document.getElementById("next");if(pv)pv.onclick=function(){go(i-1)};if(nx)nx.onclick=function(){go(i+1)};
+if(n>1){tm=setInterval(function(){go(i+1)},7000);tr.parentNode.addEventListener("pointerdown",function(e){x0=e.clientX;clearInterval(tm)});tr.parentNode.addEventListener("pointerup",function(e){if(x0!==null&&Math.abs(e.clientX-x0)>40)go(i+(e.clientX<x0?1:-1));x0=null})}}</script></body></html>
